@@ -70,6 +70,7 @@ containerd_fedora_repo_component: "stable"
 
 # Extra config to be put in {{ containerd_cfg_dir }}/config.toml literally
 containerd_extra_args: ''
+containerd_registries_insecure: []
 
 # Configure registry auth (if applicable to secure/insecure registries)
 containerd_registry_auth: []
